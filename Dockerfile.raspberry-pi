@@ -27,6 +27,7 @@ RUN apt-get update && apt-get install -y \
     libswscale-dev freerdp2-dev libfreerdp-client2-2 libpango1.0-dev \
     libssh2-1-dev libtelnet-dev libvncserver-dev \
     libpulse-dev libssl-dev libvorbis-dev libwebp-dev libwebsockets-dev \
+    libguac-client-vnc0 libguac-client-ssh0 libguac-client-rdp0 \	
     ghostscript postgresql-${PG_MAJOR} \
   && rm -rf /var/lib/apt/lists/*
 
